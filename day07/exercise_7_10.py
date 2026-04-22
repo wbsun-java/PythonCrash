@@ -8,5 +8,14 @@
 responses = {}
 
 # TODO: Write a while loop that asks for name and dream vacation
-# TODO: Store each response in the 'responses' dictionary
+while True:
+    name = input("What is your name? ")
+    if name == 'quit':
+        break
+    place = input("If you could visit one place in the world, "
+                  "where would you go? ")
+    # TODO: Store each response in the 'responses' dictionary
+    responses[name] = place
 # TODO: After loop ends, print all names and their dream destinations
+for name, destinations in responses.items():
+    print(f"{name}'s dream destinations: {destinations}")

@@ -3,4 +3,8 @@
 # To stop it, press Ctrl+C in the terminal.
 # Note: This is intentionally an infinite loop for demonstration.
 
-# TODO: Write a while loop that runs forever and prints something each iteration
+# TODO: Write a while loop that runs forever 
+# and prints something each iteration
+while True:
+    print("This is an infinite loop!")
+

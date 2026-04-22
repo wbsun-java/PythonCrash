@@ -10,5 +10,11 @@ sandwich_orders = ['tuna', 'pastrami', 'egg salad', 'blt', 'veggie']
 finished_sandwiches = []
 
 # TODO: Loop through sandwich_orders using a while loop
-# TODO: Print a message for each sandwich and move it to finished_sandwiches
-# TODO: Print a summary list of all finished sandwiches
+while sandwich_orders:
+    # TODO: Print a message for each sandwich and 
+    # move it to finished_sandwiches
+    sandwich = sandwich_orders.pop()
+    print(f"I made your {sandwich} sandwich.")
+    # TODO: Print a summary list of all finished sandwiches
+    finished_sandwiches.append(sandwich)
+print(f"Finished sandwiches: {finished_sandwiches}")
