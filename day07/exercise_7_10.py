@@ -18,4 +18,4 @@ while True:
     responses[name] = place
 # TODO: After loop ends, print all names and their dream destinations
 for name, destinations in responses.items():
-    print(f"{name}'s dream destinations: {destinations}")
+    print(f"{name.title()}'s dream destinations: {destinations.title()}")
