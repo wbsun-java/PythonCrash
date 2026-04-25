@@ -4,5 +4,11 @@
 # Call it once with positional arguments, and once with keyword arguments.
 
 # TODO: Define make_shirt(size, message)
+def make_shirt(size, message):
+    print(f"I'll make a {size} shirt with the text: {message}.")
+
+
 # TODO: Call with positional args
+make_shirt('large', 'brand')
 # TODO: Call with keyword args
+make_shirt(size='large', message='brand')

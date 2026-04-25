@@ -6,11 +6,11 @@
 # Then make the remaining sandwiches and move them to finished_sandwiches.
 # Make sure no pastrami ends up in finished_sandwiches.
 
-sandwich_orders = ['pastrami', 
-                   'tuna', 
-                   'pastrami', 
-                   'egg salad', 
-                   'pastrami', 
+sandwich_orders = ['pastrami',
+                   'tuna',
+                   'pastrami',
+                   'egg salad',
+                   'pastrami',
                    'blt']
 finished_sandwiches = []
 

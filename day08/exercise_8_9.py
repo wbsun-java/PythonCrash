@@ -4,5 +4,12 @@
 
 magicians = ['alice', 'david copperfield', 'criss angel', 'penn']
 
+
 # TODO: Define show_magicians(magicians) that prints each name
+def show_magicians(magicians):
+    for magician in magicians:
+        print(magician.title())
+
+
 # TODO: Call show_magicians() with your list
+show_magicians(magicians)
