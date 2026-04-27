@@ -12,6 +12,9 @@ my_restaurant = Restaurant('fox hole', 'italian')
 my_restaurant.description_restaurant()
 my_restaurant.open_restaurant()
 
-his_restaurant = Restaurant(restaurant_name='yard house', cuisine_type='american')
+his_restaurant = Restaurant(
+    restaurant_name='yard house',
+    cuisine_type='american'
+    ) 
 his_restaurant.description_restaurant()
 his_restaurant.open_restaurant()
