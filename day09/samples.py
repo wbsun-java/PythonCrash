@@ -27,6 +27,7 @@ print(f"My dog is {my_dog.age} years old.")
 my_dog.sit()
 your_dog.sit()
 
+
 # --- Setting a default attribute value ---
 class Car():
     def __init__(self, make, model, year):
@@ -56,6 +57,7 @@ print(my_car.get_descriptive_name())
 my_car.update_odometer(23500)
 my_car.read_odometer()
 
+
 # --- Inheritance ---
 class ElectricCar(Car):
     """Represent aspects of a car, specific to electric vehicles."""
@@ -72,6 +74,7 @@ class ElectricCar(Car):
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())   # inherited method
 my_tesla.describe_battery()              # child class method
+
 
 # --- Overriding a parent method ---
 class ElectricCar(Car):
