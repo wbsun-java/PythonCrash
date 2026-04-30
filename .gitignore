@@ -6,3 +6,11 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
+
+# Runtime-generated exercise output files
+guest.txt
+guest_book.txt
+programming_poll.txt
+day10/favorite_number.json
+day10/username.json
+.vscode/
