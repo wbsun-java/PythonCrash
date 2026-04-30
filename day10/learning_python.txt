@@ -1,0 +1,4 @@
+In Python you can create a program.
+In Python you can debug a program if any issues arise.
+In Python you can do anything you want.
+In Python you can createa an OS system.

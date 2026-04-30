@@ -6,6 +6,7 @@
 
 import json
 
+
 def get_stored_username():
     """Return stored username if available."""
     filename = 'username.json'
@@ -27,11 +28,21 @@ def get_new_username():
 
 def greet_user():
     # TODO: Get the stored username
+    username = get_stored_username()
     # TODO: If found, ask user to confirm it's them
-    # TODO: If confirmed, print a welcome-back message
+    if username:
+        # TODO: If confirmed, print a welcome-back message
+        print(f"Are you {username.title()}? y/n")
     # TODO: If not confirmed, call get_new_username() and greet the new user
-    # TODO: If no stored username, call get_new_username() and greet them
-    pass
+        if input() == 'y':
+            print(f"Welcome back, {username.title()}!")
+        else:
+            username = get_new_username()
+            print(f"Greeting! {username.title()}")
+    # TODO: If no stored username, call get_new_username()and greet them
+    else:
+        username = get_new_username()
+        print(f"We'll remember you when you come back, {username.title()}!")
 
 
 greet_user()
