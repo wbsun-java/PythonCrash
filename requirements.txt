@@ -1,0 +1,20 @@
+# Part II — Project dependencies
+# Install all: pip install -r requirements.txt
+
+# Day 12-14: Alien Invasion (Pygame game)
+pygame
+
+# Day 15: Data visualization
+matplotlib
+plotly
+
+# Day 16: CSV and JSON data (no extra packages — uses stdlib csv, json, datetime)
+
+# Day 17: Web APIs
+requests
+
+# Day 18-20: Django web app
+django
+django-bootstrap5
+gunicorn
+whitenoise
