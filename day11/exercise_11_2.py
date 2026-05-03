@@ -7,7 +7,7 @@
 # 1. First add population as a required param — run tests, they should FAIL.
 # 2. Then make it optional (default None) — run tests, they should PASS again.
 # 3. Add test_city_country_population() to test_cities.py that calls
-#    city_country('santiago', 'chile', population=5000000) and asserts the result.
+# city_country('santiago', 'chile', population=5000000) and asserts the result.
 
 # TODO: Update city_functions.py with optional population parameter
 # TODO: Update test_cities.py to add test_city_country_population()
