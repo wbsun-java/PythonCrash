@@ -1,0 +1,21 @@
+class Dog:
+    """Define a class Dog"""
+    def __init__(self, name, age):
+        """Initialize name and age attributes"""
+        self.name = name
+        self.age = age
+
+    def sit(self):
+        """Simulate the dog sitting"""
+        print(self.name.title() + " is now sitting.")
+
+    def roll_over(self):
+        """Simulate the dog rolling over"""
+        print(f"{self.name.title()} is now rolling over.")
+
+
+my_dog = Dog('Niuniu', 4)
+print(f"My dog's name is {my_dog.name}.")
+print(f"My dog is {my_dog.age} years old.")
+my_dog.sit()
+my_dog.roll_over()

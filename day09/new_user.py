@@ -2,13 +2,13 @@ from dataclasses import dataclass
 
 
 @dataclass
-class User:
+class Newuser:
     first_name: str
     last_name: str
     age: int
     location: str = ''
 
-    def user_decription(self):
+    def describe_user(self):
         print(f"First Name: {self.first_name.title()}")
         print(f"Last Name: {self.last_name.title()}")
         print(f"Age: {self.age}")

@@ -13,3 +13,5 @@ class Settings:
     bullet_color: tuple = (60, 60, 60)
     bullets_allowed: int = 10
     alien_speed: float = 1.0
+    fleet_direction: int = 1
+    fleet_drop_speed: int = 10
